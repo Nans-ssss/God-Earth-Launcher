@@ -2149,6 +2149,14 @@ input:checked + .toggleSwitchSlider:before {
     padding: 15px;
 }
 
+#texteAbout {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    font-size: 15px;
+}
+
+
 /* About header elements. */
 #settingsAboutCurrentHeadline {
     display: flex;
@@ -2497,7 +2505,7 @@ input:checked + .toggleSwitchSlider:before {
     position: relative;
     top: 25px;
     display: inline-flex;
-    line-height: 24px;
+    line-height: 30px;
     left: 50px;
 }
 #landingContainer > #lower > #center {
@@ -3181,7 +3189,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Style for a general label on the bottom of the landing view. */
 .bot_label {
-    font-size: 9px;
+    font-size: 8px;
     letter-spacing: 1px;
     font-weight: bold;
     text-shadow: 0px 0px 0px #bebcbb;

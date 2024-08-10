@@ -8,7 +8,6 @@
                 <div id="settingsNavItemsContent">
                     <button class="settingsNavItem" rSc="settingsTabAccount" id="settingsNavAccount" selected><%- lang('settings.navAccount') %></button>
                     <button class="settingsNavItem" rSc="settingsTabMinecraft"><%- lang('settings.navMinecraft') %></button>
-                    <button class="settingsNavItem" rSc="settingsTabMods"><%- lang('settings.navMods') %></button>
                     <button class="settingsNavItem" rSc="settingsTabJava"><%- lang('settings.navJava') %></button>
                     <button class="settingsNavItem" rSc="settingsTabLauncher"><%- lang('settings.navLauncher') %></button>
                     <div class="settingsNavSpacer"></div>
@@ -315,7 +314,7 @@
                 <div id="settingsAboutCurrentContent">
                     <div id="settingsAboutCurrentHeadline">
                         <img id="settingsAboutLogo" src="./assets/images/SealCircle.png">
-                        <span id="settingsAboutTitle"><%- lang('settings.aboutTitle', { appName: lang('app.title') }) %></span>
+                        <span id="settingsAboutTitle">Crédits</span>
                     </div>
                     <div id="settingsAboutCurrentVersion">
                         <div id="settingsAboutCurrentVersionCheck">&#10003;</div>
@@ -327,27 +326,28 @@
                             </div>
                         </div>
                     </div>
+                    <div id="texteAbout">
+                    <h3>Fondateur:</h3> 
+                    <p>zvldrix</p>
+                    <p>Nayro</p>
+                    <h3>Directeur Général:</h3> 
+                    <p>Nans</p>
+                    <h3>Manager Serveur:</h3> 
+                    <p>Nans</p>
+                    <h3>Developpement:</h3> 
+                    <p>cuitcuit</p>
+                    <h3>Launcher:</h3> 
+                    <p>Nans</p>
+                    <h3>Textures:</h3> 
+                    <p>Kitsu</p>
+                    <p>Nayro</p>
+                    </div>
                 </div>
                 <div id="settingsAboutButtons">
-                    <a href="<%- lang('settings.sourceGithubLink') %>" id="settingsAboutSourceButton" class="settingsAboutButton"><%- lang('settings.sourceGithub') %></a>
                     <!-- The following must be included in third-party usage. -->
-                    <!-- <a href="https://github.com/dscalzi/HeliosLauncher" id="settingsAboutSourceButton" class="settingsAboutButton">Original Source</a> -->
+                    <a href="https://github.com/dscalzi/HeliosLauncher" id="settingsAboutSourceButton" class="settingsAboutButton">Source Originale</a>
                     <a href="<%- lang('settings.supportLink') %>" id="settingsAboutSupportButton" class="settingsAboutButton"><%- lang('settings.support') %></a>
                     <a href="#" id="settingsAboutDevToolsButton" class="settingsAboutButton"><%- lang('settings.devToolsConsole') %></a>
-                </div>
-            </div>
-            <div class="settingsChangelogContainer">
-                <div class="settingsChangelogContent">
-                    <div class="settingsChangelogHeadline">
-                        <div class="settingsChangelogLabel"><%- lang('settings.releaseNotes') %></div>
-                        <div class="settingsChangelogTitle"><%- lang('settings.changelog') %></div>
-                    </div>
-                    <div class="settingsChangelogText">
-                        <%- lang('settings.noReleaseNotes') %>
-                    </div>
-                </div>
-                <div class="settingsChangelogActions">
-                    <a class="settingsChangelogButton settingsAboutButton" href="#"><%- lang('settings.viewReleaseNotes') %></a>
                 </div>
             </div>
         </div>
